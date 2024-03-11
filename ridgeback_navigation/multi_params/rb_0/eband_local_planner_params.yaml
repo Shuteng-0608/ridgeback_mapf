@@ -31,11 +31,11 @@ EBandPlannerROS:
 
   # Trajectory Controller Parameters
   # 速度控制参数
-  max_vel_lin: 3
-  min_vel_lin: -3
+  max_vel_lin: 5
+  min_vel_lin: -5
 
-  max_vel_th: 1
-  min_vel_th: -1
+  max_vel_th: 2
+  min_vel_th: -2
 
   # PID 控制参数
   k_prop: 4.0

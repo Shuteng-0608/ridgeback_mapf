@@ -1,0 +1,12 @@
+DWAPlannerROS:
+  max_vel_x: 0.5  # Maximum linear velocity in x-axis direction
+  max_vel_y: 0.5  # Maximum linear velocity in y-axis direction
+  max_trans_vel: 0.5  # Maximum translational velocity
+  min_vel_x: -0.5  # Minimum linear velocity in x-axis direction
+  min_vel_y: -0.5  # Minimum linear velocity in y-axis direction
+  max_rot_vel: 1.0  # Maximum rotational velocity
+  acc_lim_x: 0.5  # Linear acceleration limit in x-axis direction
+  acc_lim_y: 0.5  # Linear acceleration limit in y-axis direction
+  acc_lim_theta: 1.0  # Angular acceleration limit
+  xy_goal_tolerance: 0.1  # Tolerance for goal reaching in x-y position
+  yaw_goal_tolerance: 0.1  # Tolerance for goal reaching in orientation
